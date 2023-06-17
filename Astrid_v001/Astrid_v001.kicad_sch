@@ -1,0 +1,48 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid e2730b3f-5273-4378-86ef-4e646f9dc7cd)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 119.38 25.4) (size 53.34 45.72) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 535fad81-0960-45fc-a8bb-af9258fb97da)
+    (property "Sheetname" "gpio_conn_A" (at 119.38 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "gpio_conn_A.kicad_sch" (at 119.38 71.7046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Astrid_v001"
+        (path "/e2730b3f-5273-4378-86ef-4e646f9dc7cd" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 119.38 85.09) (size 53.34 48.26) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 70d699ce-f8dd-4ce8-bd8a-b2fc16a14118)
+    (property "Sheetname" "gpio_conn_B" (at 119.38 84.3784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "gpio_conn_B.kicad_sch" (at 119.38 133.9346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Astrid_v001"
+        (path "/e2730b3f-5273-4378-86ef-4e646f9dc7cd" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
